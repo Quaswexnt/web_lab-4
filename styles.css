@@ -229,6 +229,7 @@ header img {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0 5vw;
     gap: 5rem;
     text-align: center;
     justify-items: center;
@@ -240,7 +241,7 @@ header img {
 
 .card_entity {
     width: 80%;
-    max-width: 20vh;
+    max-width: 20rem;
     border: 1px solid lightgray;
     box-shadow: 0 0 2vh rgba(0, 0, 0, 0.1);
     background-color: white;
@@ -266,8 +267,8 @@ header img {
 }
 
 .icon{
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
     position: absolute;
     top: -4rem;
     left: 50%;
