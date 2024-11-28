@@ -9,6 +9,7 @@
 html, body {
     height: 100%; 
     margin: 0; 
+    overflow-x: hidden;
 }
 .container {
     display: grid;
@@ -86,7 +87,7 @@ header img{
     grid-template-rows: minmax(200px, 450px);
     justify-items: center;
     align-items: center;
-    padding: 0 14vw;
+    padding: 0 10vw;
     gap:3rem;
 }
 
