@@ -87,6 +87,7 @@ header img{
     justify-items: center;
     align-items: center;
     padding: 0 14vw;
+    gap:3rem;
 }
 
 .card_entity {
@@ -129,14 +130,14 @@ header img{
 }
 
 .icon {
-    width: 10rem;
+    width: 8rem;
     justify-self: center;
-    height: 10rem;
+    height: 8rem;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 2rem;
     position: absolute;
-    top: -5em;
+    top: -2.5em;
 }
 
 .card-button {
